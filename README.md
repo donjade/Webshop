@@ -34,23 +34,23 @@ A webshop created with Java, Servlet, Oracle database, Bootstrap.
 
 ```
 src/main/java
-   |-- DAO							- Data Access Object (get data from the database)
-   |-- bean							- database entities
-   |-- filter						- filter the request
-   |   |-- BackServletFilter.java	- run the correspond Servlet and method (CRUD operations with database)
-   |   |-- ForeServletFilter.java	- run ForeServlet and method
-   |-- servlet						- process the request
+   |-- DAO                          - Data Access Object (get data from the database)
+   |-- bean                         - database entities
+   |-- filter                       - filter the request
+   |   |-- BackServletFilter.java   - run the correspond Servlet and method (CRUD operations with database)
+   |   |-- ForeServletFilter.java   - run ForeServlet and method
+   |-- servlet                      - process the request
    |-- util
-   |   |-- DatabaseUtil.java		- util for create connection with the Oracle database
+   |   |-- DatabaseUtil.java        - util for create connection with the Oracle database
 web
    |-- WEB-INF
-   |   |-- lib						- contains jar files (e.g. ojdbc6.jar library for create connection with Oracle database)
+   |   |-- lib                      - contains jar files (e.g. ojdbc6.jar library for create connection with Oracle database)
    |   |-- web.xml
-   |-- *.jsp						- JavaServer Pages, create dynamically generated web pages
-   |-- css							- style files
+   |-- *.jsp                        - JavaServer Pages, create dynamically generated web pages
+   |-- css                          - style files
    |-- fonts	
    |-- image				
-   |-- include						- contains JavaServer Pages which is reusable (header, footer)
-   |-- js							- javascript files
+   |-- include                      - contains JavaServer Pages which is reusable (header, footer)
+   |-- js                           - javascript files
 ```
 
