@@ -1,0 +1,531 @@
+/*--------------- All formázás --------------*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Arial Unicode MS", "SansSerif";
+    font-weight: bold;
+}
+
+/*--------------- Minden Div-re érvényes formázás --------------*/
+div{
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+/*------------------- Header formázások ------------------------*/
+
+header{
+    background-color: black;
+    font-size: 24px;
+    height: 70px;
+    margin: 0;
+    padding: 0;
+}
+
+
+header div{
+    display: inline-block;
+}
+
+
+#headerText{
+    position: absolute;
+    padding-left: 120px;
+    top: 35px;
+    color:#fff;
+    font-size: 25px;
+}
+
+.logout{
+    float: right;
+    padding-right: 110px;
+    padding-top: 15px;
+    text-align: center;
+}
+
+.logout a{
+    color: #ffffff;
+    position: relative;
+}
+
+
+.logout button a{
+    text-decoration: none;
+    color:black;
+    font-size: 16px;
+}
+
+.logout button{
+    position: relative;
+    background: #ffffff;
+    border: 0;
+    padding: 4px 20px 4px 20px;
+    color: #ffffff;
+    border-radius: 30px;
+}
+
+.bar{
+    position: relative;
+    padding-left: 30px;
+    padding-top: 37px;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.bar li{
+    position: relative;
+    transform: translate( -30%,0%);
+    display: none;
+    background-color: #000;
+    border-top: white solid 1px;
+}
+
+.bar:hover li{
+    display: block;
+    transform: translate( -30%,46%);
+    padding: 12px 40px 12px 55px;
+}
+.bar li a{
+    color: #fff;
+    text-decoration: none;
+}
+.bar li:hover{
+    background-color: gray;
+}
+
+/*--------Search form---------*/
+
+.search-box{
+    position: absolute;
+    top: 6.5%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 300px;
+    background: white;
+    height: 20px;
+    border-radius: 35px;
+    padding: 10px;
+}
+
+.search-txt{
+    border: none;
+    background: none;
+    width:270px;
+    outline: none;
+    float: left;
+    padding: 0;
+    color:white;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 20px;
+    color: #000000;
+}
+
+.search-btn{
+    float: right;
+    width: 25px;
+    height: 21px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*------Menu right side-----*/
+
+.cart{
+    float: right;
+    padding-right: 40px;
+    padding-top: 25px;
+}
+
+ul li{
+    padding-top: 35px;
+    display: inline-block;
+}
+
+#menu-li{
+    float: right;
+    list-style-type: none;
+    padding-right: 130px;
+}
+
+
+
+#menu-li li a{
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+/*--------------------------- Main form -------------------*/
+main{
+    background-color: lightgrey;
+    height: fit-content;
+    min-height: 700px;
+    width: 70%;
+    padding: 15px;
+}
+
+/*------------------------Home form------------------------*/
+.arrivals-list li{
+    padding-right: 50px;
+}
+
+.arrivals-list{
+    position: relative;
+    padding-left: 9%;
+}
+
+.arrivals-list a{
+    float: left;
+    color: #000;
+    background-color: #fff;
+    padding: 10px 20px 15px 20px;
+    text-decoration: none;
+    border-radius: 10%;
+    margin-bottom: 40px;
+    border: gray solid 1px;
+    font-size: 12px;
+    max-width: 105px;
+    max-height: 200px;
+}
+
+.hme{
+    margin-top: 10px;
+    margin-bottom: -30px;
+    text-transform: uppercase;
+    position: relative;
+    padding-left: 9%;
+}
+.arrivals-list img{
+    position: relative;
+}
+
+
+.price {
+    color: grey;
+    font-size: 22px;
+}
+
+.fosom {
+    position: relative;
+    border-collapse: collapse;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 9%;
+}
+
+.fosom img{
+    position: relative;
+    padding-left: 17px;
+}
+
+.fosom td{
+    padding: 8px 10px 5px 10px;
+
+
+}
+
+.fosom a{
+    color: black;
+    font-size: 13px;
+
+}
+
+/*----------------------Login/Register form----------------*/
+.register, .login{
+    width: 500px;
+    max-width: 600px;
+    background: white;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 30px 40px;
+    box-sizing: border-box;
+    border-radius: 30px;
+    border: darkgray solid 1px;
+}
+
+
+.logreg-txt{
+    border: none;
+    background: none;
+    width:270px;
+    outline: none;
+    float: left;
+    padding: 0;
+    color:white;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 20px;
+    color: #000000;
+}
+
+.logreg-btn{
+    position: absolute;
+    left: 0;
+    top: 7px;
+    padding: 0 8px;
+    border-right: lightgray solid 1px;
+}
+/*--------Login------*/
+
+.login h1{
+    margin-top: 15px;
+    font-weight: 200;
+    text-align: center;
+    font-weight: bolder;
+    margin-bottom: 58px;
+}
+
+.log-box{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 250px;
+    background: white;
+    height: 20px;
+    padding: 10px;
+    padding-left: 60px;
+    border: lightgray solid 1px;
+    border-radius: 10px;
+    margin-bottom: 43px;
+}
+
+.login-btn{
+    text-transform: uppercase;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #000000;
+    width: 45%;
+    border: 0;
+    padding: 10px;
+    color: #ffffff;
+    font-size: 12px;
+    cursor: pointer;
+    border-radius: 20px;
+    margin-top: 33px;
+    margin-bottom: 55px;
+}
+
+/*--------Register----*/
+
+.register h1{
+    margin-top: 15px;
+    font-weight: 200;
+    text-align: center;
+    font-weight: bolder;
+    margin-bottom: 40px;
+}
+
+
+
+.reg-box{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 250px;
+    background: white;
+    height: 20px;
+    padding: 10px;
+    padding-left: 60px;
+    border: lightgray solid 1px;
+    border-radius: 10px;
+    margin-bottom: 17px;
+}
+
+
+
+.register-btn{
+    text-transform: uppercase;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #000000;
+    width: 45%;
+    border: 0;
+    padding: 10px;
+    color: #ffffff;
+    font-size: 12px;
+    cursor: pointer;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/*-------------------Profile form--------------------*/
+
+.profile{
+    width: 350px;
+    height: 350px;
+    background: white;
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    padding: 55px 0px;
+    padding-right: 0;
+    box-sizing: border-box;
+    border-radius: 30px;
+}
+
+.profile img{
+    position: absolute;
+    transform: translate(122%,-110%);
+}
+.profile span{
+    padding-top: 65px;
+    padding-left: 100px;
+    font-size: 24px;
+}
+.profile li{
+    display: block;
+}
+.profile a{
+    position: relative;
+    color:black;
+    text-decoration: none;
+    padding: 18px 100% 18px 10px;
+    font-size: 24px;
+}
+
+
+
+.profile a:hover{
+     background-color: lightgray;
+     border-left: darkgray solid 8px;
+ }
+
+.active a{
+    background-color: lightgray;
+    border-left: darkgray solid 8px;
+}
+
+.profile-table{
+    position: absolute;
+    padding-right: 50px;
+    top: 31.6%;
+    right: 15%;
+
+}
+
+
+.address-table{
+    position: absolute;
+    padding-right: 50px;
+    top: 31.6%;
+    right: 11.4%;
+
+}
+.balance-table{
+    position: absolute;
+    padding-right: 50px;
+    top: 34%;
+    right: 8%;
+
+}
+.balance-table a{
+    color:black;
+    font-size: 20px;
+}
+.white{
+    background-color: white;
+    padding: 10px 300px 10px 10px;
+
+    border-bottom: lightgrey solid 15px;
+    border-top: lightgrey solid 15px;
+    border-radius: 60px;
+}
+
+.gray{
+    padding-right: 50px;
+}
+
+.address-table a{
+    color: black;
+    font-size: 20px;
+}
+
+.profile-table a{
+    color: black;
+    font-size: 20px;
+}
+
+.white a{
+    padding-left: 5px;
+}
+
+.modify-btn{
+    position: relative;
+    left: 50%;
+    transform: translate(70px,480px);
+    background: none;
+    width: 18%;
+    height:5%;
+    border: 0;
+    padding: 15px;
+    color: black;
+    font-size: 21px;
+    cursor: pointer;
+    border: black solid 3px;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+/*------------------- Footer form ------------------*/
+
+footer{
+    background-color: #000000;
+    font-size: 14px;
+    text-align: center;
+    padding: 10px;
+}
+footer span{
+    color: #ffffff;
+    font-size: 10px;
+}
+
+/*----------table-form-------------*/
+table, th, td{
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    text-align: left;
+}
+th{
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+td{
+    font-size: 14px;
+    padding-bottom: 5px;
+}
+table a{
+    text-decoration: none;
+    color: white;
+}
+
+.middle{
+    padding-right: 110px;
+    padding-left: 110px;
+    border-right: white solid 2px;
+    border-left: white solid 2px;
+}
+
+.left{
+    padding-right: 110px;
+}
+
+.right{
+    padding-left: 110px;
+}
