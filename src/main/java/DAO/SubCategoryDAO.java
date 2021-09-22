@@ -35,7 +35,7 @@ public class SubCategoryDAO {
 
             ps.setString(1, subCategory.getName());
             ps.setInt(2, subCategory.getCid());
-            ps.setInt(3, subCategory.getCid());
+            ps.setInt(3, subCategory.getId());
 
             ps.executeQuery();
 

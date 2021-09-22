@@ -21,6 +21,11 @@ A webshop created with Java, Servlet, Oracle database, Bootstrap.
 
 - change database config in [DatabaseUtil.java](./src/main/java/util/DatabaseUtil.java)
     - `loginname` (database user's name), `password` (database user's password)
+
+    - create database based on the entity relationship diagram
+
+      ![database](database.png)
+
 - setup Tomcat server in IntelliJ
     1. `Run` -> `Edit Configurations...`
     2. on top left corner click on `+` button
@@ -53,4 +58,6 @@ web
    |-- include                      - contains JavaServer Pages which is reusable (header, footer)
    |-- js                           - javascript files
 ```
+
+
 
