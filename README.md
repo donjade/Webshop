@@ -1,6 +1,7 @@
 # Webshop
 
-A webshop created with Java, Servlet, Oracle database, Bootstrap.
+A webshop created with Java, JSP, Servlet, Oracle database, Bootstrap.
+(This project should be refactored, because it contains code duplications in DAO methods)
 
 ## Setup
 
