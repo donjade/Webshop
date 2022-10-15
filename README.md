@@ -12,7 +12,7 @@ A webshop created with Java, JSP, Servlet, Oracle database, Bootstrap.
 
 ### Run it locally
 
-1. `git clone https://github.com/zhouppei/Webshop.git`
+1. git clone project
 2. import project to IntelliJ (or to other IDE)
 3. change database configurations to own
 4. run Tomcat Server
